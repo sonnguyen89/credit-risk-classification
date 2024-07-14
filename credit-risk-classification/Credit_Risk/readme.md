@@ -19,14 +19,14 @@ A logistic regression model was trained using the standardized training data.
 - **True Positives (High-Risk Loan correctly predicted):** 498
 
 ### Classification Report:
-              precision    recall  f1-score   support
+                  precision    recall  f1-score   support
+    
+               0       1.00      0.99      1.00     15001
+               1       0.86      0.94      0.90       507
 
-           0       1.00      0.99      1.00     15001
-           1       0.86      0.94      0.90       507
-
-    accuracy                           0.99     15508
-   macro avg       0.93      0.97      0.95     15508
-weighted avg       0.99      0.99      0.99     15508
+    accuracy                               0.99     15508
+    macro avg          0.93      0.97      0.95     15508
+    weighted avg       0.99      0.99      0.99     15508
 
 
 - **Precision (Healthy Loan):** 1.00
